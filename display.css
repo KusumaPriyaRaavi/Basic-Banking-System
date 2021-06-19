@@ -1,0 +1,61 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 50px;
+}
+.left{
+
+	left: 0;
+  
+}
+.right{
+  
+	right: 0;
+}
+
+.centered{
+	position: relative;
+	top: 45%;
+	left: 50%;
+	float: left;
+	font-size: 17px;
+	transform: translate(-50%, -50%);
+	/*background-color: #00E1D9;*/
+	background-image: url("card.jpg");
+	background-size: cover;
+	width: 50%;
+	height: 270px;
+	border-radius: 15px;
+}
+b{
+	font-size:1.2em;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Style of the button */
+.container .btn {
+  position: relative;
+  top: 350%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.container .btn:hover {
+  background-color: white;
+  color: black;
+} 
